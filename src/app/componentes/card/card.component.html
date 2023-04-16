@@ -1,0 +1,16 @@
+<div class="card mt-3">
+    <img src={{card.src}} class="card-img-top" alt={{card.alt}}>
+    <div class="card-body">
+        <h3 class="card-title">{{card.titulo}}</h3>
+        <h5 class="card-title">{{card.subtitulo}}</h5>
+        <p class="card-text">{{card.texto}}</p>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary w-100">Ver articulo</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-light w-100" (click)="addToFav()">Agregar a fav</button>
+            </div>
+        </div>
+    </div>
+</div>
